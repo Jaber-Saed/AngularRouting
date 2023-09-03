@@ -11,8 +11,8 @@ import { Route, RouterModule, Routes } from '@angular/router';
 import { ErrorComponent } from './component/error/error.component';
 
 const appRout: Routes = [
-  //{path:'' , component: HomeComponent} in thes case the url not be hom
-  { path: '', redirectTo: 'Home', pathMatch: 'full'},
+  {path:'' , component: HomeComponent},// in this case the url not be hom
+  // { path: '', redirectTo: 'Home', pathMatch: 'full'},
   { path: 'Home', component: HomeComponent },
   { path: 'Courses', component: CoursesComponent },
   { path: 'Contact', component: ContactComponent },
